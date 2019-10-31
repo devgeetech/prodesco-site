@@ -6,6 +6,7 @@ import classes from '../styles/index.module.css'
 import Layout from '../components/hoc/Layout/Layout'
 
 import Hero from '../components/sections/hero'
+import Challenge from '../components/sections/challenge'
 
 const indexPage = () => {
     return(
@@ -15,6 +16,7 @@ const indexPage = () => {
                 <title>PRODESCO</title>
             </Helmet>
             <Hero />
+            <Challenge />
         </Layout>
 
     )

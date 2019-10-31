@@ -13,7 +13,7 @@ const Hero = () => {
             <img src={idea} alt="Idea hero" className={classes.heroIm}/>
             <div className={classes.heroTx}>
                 <p className={classes.heroTxHead}>Providence Design <br/>Contest</p>
-                <p className={classes.heroTxCont}>State level competition to unearth the creators of tomorrow</p>
+                <p className={classes.heroTxCont}>State level competition to unearth the inventors of tomorrow</p>
             </div>
             <img src={down} alt="Down Arrow" className={classes.downArr} />
         </div>
