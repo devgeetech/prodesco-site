@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.heroWrap {
+    display: flex;
+    min-width: 100%;
+    height: 37.5rem;
+    flex-direction: column;
+    align-items: center;
+    background: #f2f5f7
+}
+
+.heroIm {
+    margin-top :8rem;
+    width: 80%;
+}
+
+.heroTx {
+    z-index: 10;
+    margin: 2rem;
+}
+
+.heroTxHead {
+    font-family: 'Playfair Display', 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    margin: 0;
+    color: #222324;
+}
+
+.heroTxCont {
+    font-family: 'Montserrat', 'Times New Roman', Times, serif;
+    color: #222324;
+    font-weight: 0.8rem;
+}
+
+.blob {
+    position: absolute;
+    top: -27rem;
+    left: -16rem;
+    width: 48rem;
+}
+
+.downArr {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .heroWrap {
+        margin:0;
+        flex-direction: row;
+        justify-content: space-around;
+        height: 100vh;
+    }
+
+    .blob {
+        top: -17rem;
+        left: -13rem;
+        width: 37.5rem;
+    }
+    
+    .heroIm {
+        margin: 0;
+        order: 1;
+        width: 40%;
+    }
+
+    .heroTx {
+        width: 40%;
+    }
+
+    .heroTxHead {
+        font-size: 4rem;
+    }
+
+    .heroTxCont {
+        width: 90%;
+        font-size: 1.5rem;
+    }
+
+    .downArr {
+        display: block;
+        width: 1.5rem;
+        position: absolute;
+        bottom: 2.5rem;
+        left: 50%;
+        opacity: 0.8;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* colors
+#3f3d56 black
+#2f2e41 black2
+#38d39f  green */
