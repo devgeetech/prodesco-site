@@ -61,6 +61,7 @@ body {
     display: none;
 }
 
+
 @media (min-width: 640px) {
     .heroWrap {
         margin:0;
@@ -103,10 +104,6 @@ body {
         opacity: 0.8;
     }
 }
-
-
-
-
 
 
 
