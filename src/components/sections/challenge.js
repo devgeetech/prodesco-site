@@ -2,9 +2,7 @@ import React from "react"
 
 import classes from './challenge.module.css'
 
-import idea from '../../../content/illus/idea4.svg'
 import blob from '../../../content/bgillus/blobDGr.svg'
-import down from '../../../content/icons/downArrowEd.svg'
 import tinker from '../../../content/logos/tinkerLogo.png'
 import fusion from '../../../content/logos/fusionLogo.png'
 
@@ -22,7 +20,7 @@ const Challenge = () => {
                 <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>Schools</p>
                     <p className={classes.chalSplitCont}>Build a portable plastic waste management system.</p>
-                    <p className={classes.chalSplitCont2}>Software used: AUTODESK TINKERCAD</p>
+                    <p className={classes.chalSplitCont2}>Software to be used: AUTODESK TINKERCAD</p>
                     <a href="https://www.tinkercad.com/" rel="noopener noreferrer" target="_blank" className={classes.chalSplitImg1}>
                         <img src={tinker} alt="tinkercad logo" />
                     </a>
@@ -33,7 +31,7 @@ const Challenge = () => {
                 <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>Colleges &amp; Polytechnics</p>
                     <p className={classes.chalSplitCont}>Build a portable waste management system</p>
-                    <p className={classes.chalSplitCont2}>Software used: AUTODESK FUSION 360</p>
+                    <p className={classes.chalSplitCont2}>Software to be used: AUTODESK FUSION 360</p>
                     <a href="https://www.autodesk.in/products/fusion-360/overview" rel="noopener noreferrer" target="_blank" className={classes.chalSplitImg2}>
                         <img src={fusion} alt="fusion 360 logo" />
                     </a>

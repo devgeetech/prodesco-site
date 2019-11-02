@@ -1,12 +1,13 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 
-import classes from '../styles/index.module.css'
+// import classes from '../styles/index.module.css'
 
 import Layout from '../components/hoc/Layout/Layout'
 
 import Hero from '../components/sections/hero'
 import Challenge from '../components/sections/challenge'
+import EvProcess from '../components/sections/evprocess'
 
 const indexPage = () => {
     return(
@@ -17,6 +18,7 @@ const indexPage = () => {
             </Helmet>
             <Hero />
             <Challenge />
+            <EvProcess />
         </Layout>
 
     )
