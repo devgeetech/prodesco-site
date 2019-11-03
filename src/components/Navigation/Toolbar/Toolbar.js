@@ -10,7 +10,7 @@ const toolbar = (props) => (
         <div className={classes.Logo}>
             <Logo className={classes.LogoImg}/>
         </div>
-        <DrawerToggle clicked = {props.drawerToggleClicked}/>
+        {/* <DrawerToggle clicked = {props.drawerToggleClicked}/> */}
         <nav className={classes.NavItems}>
             <NavigationItems/>
         </nav>

@@ -22,7 +22,7 @@ body {
     height: 37.5rem;
     flex-direction: column;
     align-items: center;
-    background: #f2f5f7
+    background: #f2f5f7;
 }
 
 .heroIm {
@@ -49,6 +49,51 @@ body {
     color: #222324;
     font-weight: 0.8rem;
 }
+
+/* .regBtn {
+    padding: 0.5rem;
+    width: 8rem;
+    border: 3px solid #38d39f;
+    border-radius: 8px; 
+    text-align: center;
+    font-family: 'Raleway', 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.regBtn :hover {
+    border: 3px solid #3f3d56;
+    background: #3f3d56;
+    color: #38d39f;
+} */
+
+.rgBtn {
+    padding: 0.5rem 1.5rem;
+    width: 8rem;
+    border: 3px solid #38d39f;
+    background: #f2f5f7;
+    border-radius: 8px; 
+    text-align: center;
+    font-family: 'Raleway', 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #3f3d56;
+    /* text-decoration: none;
+    color: #3f3d56; */
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.rgBtn:hover{
+    border: 3px solid #3f3d56;
+    background: #3f3d56;
+    color: #38d39f;
+}
+
 
 .blob {
     position: absolute;

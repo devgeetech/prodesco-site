@@ -16,7 +16,7 @@ const EvProcess = () => {
                     <p className={classes.evPTxContH}>First Level Submission</p>
                     <p className={classes.evPTxContC}>
                         The participants submit their designs online.<br/>
-                        The designs will be evaluated by the Autodesk Experts.
+                        The designs will be evaluated by Autodesk Experts.
                     </p>
 
                     <p className={classes.evPTxContH}>Boot Camps</p>
