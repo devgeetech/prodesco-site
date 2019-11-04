@@ -19,14 +19,14 @@ body {
 .chalWrap {
     display: flex;
     min-width: 100%;
-    height: 50rem;
+    height: 58rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: #f2f5f7
 }
 
-
+/**/
 .chalTx {
     z-index: 10;
     margin: 6rem 2rem 2rem 2rem;
