@@ -22,7 +22,7 @@ const EvProcess = () => {
                     <p className={classes.evPTxContH}>Boot Camps</p>
                     <p className={classes.evPTxContC}>
                         After the first level screening the competitors will be 
-                        given one week advanced training by the Autodesk officials.
+                        given a 3-day advanced training by the Autodesk officials.
                     </p>
 
                     <p className={classes.evPTxContH}>Second Level Submission</p>

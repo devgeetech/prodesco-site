@@ -10,11 +10,11 @@ const Contact = () => {
         <div className={classes.chalWrap} id="contact-section">
             <div className={classes.chalTx}>
                 <p className={classes.chalTxHead}>Contact Us</p>
-                <p className={classes.chalTxCont}>For further information contact our district coordinators</p>
+                <p className={classes.chalTxCont}>We'd love to answer your questions! Contact our district coordinators</p>
             </div>
             <div className={classes.chalSplit}>
                 <div className={classes.chalSplitSec}>
-                    <p className={classes.chalSplitHead}>KASSARGOD</p>
+                    <p className={classes.chalSplitHead}>KASARGOD</p>
                     <p className={classes.chalSplitCont}>ANU MOHAN</p>
                     <p className={classes.chalSplitContPh}>8075358440</p>
                     <p className={classes.chalSplitHead}>KANNUR</p>

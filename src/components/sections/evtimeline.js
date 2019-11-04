@@ -13,7 +13,7 @@ const Evtimeline = () => {
             <div className={classes.timCont}>
                 <div className={classes.chalTx}>
                     <p className={classes.chalTxHead}>Event Timeline</p>
-                    <p className={classes.chalTxCont}>This will be our event timeline happening all over kerala according to the schedule</p>
+                    <p className={classes.chalTxCont}>Here is the detailed schedule of the event. Keep track of all the submission deadlines!</p>
                 </div>
 
                 <table>

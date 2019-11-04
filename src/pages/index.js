@@ -1,6 +1,5 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { Link } from 'gatsby'
 
 import classes from '../styles/index.module.css'
 
@@ -11,6 +10,7 @@ import Challenge from '../components/sections/challenge'
 import EvProcess from '../components/sections/evprocess'
 import Prize from '../components/sections/prize'
 import Evtimeline from '../components/sections/evtimeline'
+import Sponsor from '../components/sections/sponsor'
 import Contact from '../components/sections/contact'
 import Footer from '../components/sections/footer'
 
@@ -31,9 +31,10 @@ const indexPage = () => {
             <Challenge />
             <EvProcess/>
             <Prize />
-            <Evtimeline/>
-            <Contact/>
-            <Footer/>
+            <Evtimeline />
+            <Sponsor />
+            <Contact />
+            <Footer />
         </Layout>
 
     )

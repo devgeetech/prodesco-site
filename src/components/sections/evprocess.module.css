@@ -51,6 +51,7 @@ body {
 
 .evPTxContH {
     font-weight: 600;
+    z-index: inherit;
 }
 
 .evPTxContC {
@@ -59,7 +60,7 @@ body {
 
 .blob {
     position: absolute;
-    top: 70rem;
+    top: 78rem;
     left: -20rem;
     width: 32rem;
 }

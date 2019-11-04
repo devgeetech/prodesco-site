@@ -15,9 +15,9 @@ const Prize = () => {
                     <p className={classes.prPTxHead}>Prizes &amp; Goodies</p>
                     <div className={classes.prPTxCont}>
                         <ul>
-                            <li>All participants get Autodesk assured gifts and participation certificates.</li>
+                            <li>All participants get Autodesk assured gifts and participation certificates after completing each stage.</li>
                             <br/>
-                            <li>Participants who pass First level screening gets exclusive access to Bootcamps set up by Autodesk experts</li>
+                            <li>Participants who pass First level screening gets exclusive access to Bootcamps set up by Autodesk experts.</li>
                             <br/>
                             <li>The winners of the event get financial support to convert their prototype into a full-scale product</li>
                         </ul>
