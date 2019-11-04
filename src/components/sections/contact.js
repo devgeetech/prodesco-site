@@ -1,6 +1,6 @@
 import React from "react"
 
-import classes from './challenge.module.css'
+import classes from './contact.module.css'
 
 import blob from '../../../content/bgillus/blobDGr.svg'
 
