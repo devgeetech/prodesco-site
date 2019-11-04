@@ -11,7 +11,7 @@ import EvProcess from '../components/sections/evprocess'
 import Prize from '../components/sections/prize'
 import Evtimeline from '../components/sections/evtimeline'
 import Contact from '../components/sections/contact'
-
+import Footer from '../components/sections/footer'
 const indexPage = () => {
     return(
         <Layout>
@@ -25,6 +25,7 @@ const indexPage = () => {
             <Prize />
             <Evtimeline/>
             <Contact/>
+            <Footer/>
         </Layout>
 
     )
