@@ -30,18 +30,16 @@ const Contact = () => {
                     <p className={classes.chalSplitHead}>MALAPPURAM</p>
                     <p className={classes.chalSplitCont}>ANANTHU R</p>
                     <p className={classes.chalSplitCont}>8281184583</p>
+                   
+                </div>
+
+                <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>PALAKKAD</p>
                     <p className={classes.chalSplitCont}>SHARATH R SHANKAR</p>
                     <p className={classes.chalSplitCont}>8943892463</p>
                     <p className={classes.chalSplitHead}>THRISSUR</p>
                     <p className={classes.chalSplitCont}>JOEL GEE ROY</p>
                     <p className={classes.chalSplitCont}>9645171179</p>
-                </div>
-
-                
-
-                <div className={classes.chalSplitSec}>
-                
                     <p className={classes.chalSplitHead}>ERNAKULAM</p>
                     <p className={classes.chalSplitCont}>SOORAJ S</p>
                     <p className={classes.chalSplitCont}>8129284264</p>
@@ -51,6 +49,10 @@ const Contact = () => {
                     <p className={classes.chalSplitHead}>KOTTAYAM</p>
                     <p className={classes.chalSplitCont}>JAI JACOB</p>
                     <p className={classes.chalSplitCont}>9447803240</p>
+                    
+                
+                </div>
+                <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>ALAPPUZHA</p>
                     <p className={classes.chalSplitCont}>ABIN OOMMEN</p>
                     <p className={classes.chalSplitCont}>8281072987</p>
