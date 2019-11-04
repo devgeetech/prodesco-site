@@ -19,6 +19,7 @@ body {
 .chalWrap {
     display: flex;
     min-width: 100%;
+    min-height: 55rem;
     height: 50rem;
     flex-direction: column;
     align-items: center;

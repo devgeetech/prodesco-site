@@ -8,7 +8,6 @@ import blob from '../../../content/bgillus/blobDGr.svg'
 const Contact = () => {
     return(
         <div className={classes.chalWrap}>
-            <img src={blob} alt="blob" className={classes.blob} />
             <div className={classes.chalTx}>
                 <p className={classes.chalTxHead}>Contact Us</p>
                 <p className={classes.chalTxCont}>For further information contact our district coordinators</p>
