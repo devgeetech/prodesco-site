@@ -35,7 +35,7 @@ const Evtimeline = () => {
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Boot Camp Window</td>
-                        <td>2nd January - 18th January 2020</td>
+                        <td>2nd December - 18th January 2020</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Second level Submission start date</td>

@@ -35,7 +35,7 @@ const EvProcess = () => {
                     <p className={classes.evPTxContH}>Third Level Submission</p>
                     <p className={classes.evPTxContC}>
                         The shortlisted participants are required to present their designs 
-                        Infront of an expert panel of judges which includes judges from Autodesk and industry.<br/>
+                        in front of an expert panel of judges which includes judges from Autodesk and industry.<br/>
                         The 3 finalists are selected and they must present their design during the finale of the competition.
                     </p>
                 </div>

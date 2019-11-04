@@ -13,7 +13,7 @@ const Challenge = () => {
             <div className={classes.chalTx}>
                 <p className={classes.chalTxHead}>The Challenge</p>
                 <p className={classes.chalTxCont}>Craft designs that can shape the future. 
-                Build prototypes that can flourish into full-scale products. 
+                Design prototypes that can flourish into full-scale products. 
                 The challenge is narrowed down for students of two categories.</p>
             </div>
             <div className={classes.chalSplit}>
