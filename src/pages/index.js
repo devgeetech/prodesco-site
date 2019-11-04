@@ -9,6 +9,7 @@ import Hero from '../components/sections/hero'
 import Challenge from '../components/sections/challenge'
 import EvProcess from '../components/sections/evprocess'
 import Prize from '../components/sections/prize'
+import Evtimeline from '../components/sections/evtimeline'
 
 const indexPage = () => {
     return(
@@ -21,6 +22,7 @@ const indexPage = () => {
             <Challenge />
             <EvProcess />
             <Prize />
+            <Evtimeline/>
         </Layout>
 
     )
