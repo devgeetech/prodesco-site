@@ -10,6 +10,7 @@ import Challenge from '../components/sections/challenge'
 import EvProcess from '../components/sections/evprocess'
 import Prize from '../components/sections/prize'
 import Evtimeline from '../components/sections/evtimeline'
+import Contact from '../components/sections/contact'
 
 const indexPage = () => {
     return(
@@ -23,6 +24,7 @@ const indexPage = () => {
             <EvProcess />
             <Prize />
             <Evtimeline/>
+            <Contact/>
         </Layout>
 
     )
