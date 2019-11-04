@@ -9,7 +9,7 @@ const Evtimeline = () => {
         <div className={classes.chalWrap}>
             <div className={classes.chalTx}>
                 <p className={classes.chalTxHead}>Event Timeline</p>
-                <p className={classes.chalTxCont}>This will be our event time line happening all over across kerala according to the schedule</p>
+                <p className={classes.chalTxCont}>This will be our event timeline happening all over kerala according to the schedule</p>
             </div>
             <div className={classes.chalSplit}>
                 <div className={classes.chalSplitSec}>
