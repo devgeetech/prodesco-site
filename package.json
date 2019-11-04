@@ -23,6 +23,7 @@
     "react-particles-webgl": "^1.0.10",
     "react-spring": "^8.0.27",
     "react-three-fiber": "^3.0.7",
+    "smooth-scroll": "^16.1.0",
     "three": "^0.110.0"
   },
   "devDependencies": {

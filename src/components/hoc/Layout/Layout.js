@@ -10,6 +10,8 @@ class Layout extends Component {
         showSideDrawer : false
     }
 
+    
+
     sideDrawerClosedHandler = () =>{
         this.setState({showSideDrawer : false})
     }
@@ -21,6 +23,7 @@ class Layout extends Component {
     }
 
     render() {
+
         return(
             <React.Fragment>
                 <Toolbar drawerToggleClicked={this.sideDrawerToggleHandler}/>

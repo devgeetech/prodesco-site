@@ -14,7 +14,7 @@ const Hero = () => {
             <div className={classes.heroTx}>
                 <p className={classes.heroTxHead}>Providence Design <br/>Contest</p>
                 <p className={classes.heroTxCont}>State level competition to unearth the inventors of tomorrow</p>
-                <a href="https://dartigo.netlify.com" rel="noopener noreferrer" target="_blank" className={classes.rgBtn}>
+                <a href="/#challenge-section" rel="noopener noreferrer" target="_blank" className={classes.rgBtn}>
                     Register
                 </a>
                 

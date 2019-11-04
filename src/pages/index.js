@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { Link } from 'gatsby'
 
 import classes from '../styles/index.module.css'
 
@@ -12,6 +13,13 @@ import Prize from '../components/sections/prize'
 import Evtimeline from '../components/sections/evtimeline'
 import Contact from '../components/sections/contact'
 import Footer from '../components/sections/footer'
+
+if (typeof window !== "undefined") {
+    // eslint-disable-next-line global-require
+    require("smooth-scroll")('a[href*="#"]')
+}
+
+
 const indexPage = () => {
     return(
         <Layout>
@@ -21,7 +29,7 @@ const indexPage = () => {
             </Helmet>
             <Hero />
             <Challenge />
-            <EvProcess />
+            <EvProcess/>
             <Prize />
             <Evtimeline/>
             <Contact/>
