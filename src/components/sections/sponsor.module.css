@@ -19,7 +19,9 @@ body {
 .spWrap {
     display: flex;
     min-width: 100%;
-    height: 65rem;
+    /* height: 65rem; */
+    height: 100%;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
     background: #f2f5f7;
@@ -62,7 +64,7 @@ body {
 @media (min-width: 500px) {
     .spWrap {
         margin:0;
-        height: 90vh;
+        height: 100vh;
     }
 
     .spImgs {

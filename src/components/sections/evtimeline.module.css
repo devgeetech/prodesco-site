@@ -18,6 +18,7 @@ body {
 }
 
 .chalWrap {
+    margin:0;
     display: flex;
     min-width: 100%;
     /* padding-top: 14rem; */

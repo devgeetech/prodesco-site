@@ -19,7 +19,7 @@ const Prize = () => {
                             <br/>
                             <li>Participants who pass First level screening gets exclusive access to Bootcamps set up by Autodesk experts.</li>
                             <br/>
-                            <li>The winners of the event get financial support to convert their design into a full-scale product</li>
+                            <li>The winners of the event get financial support to convert their designs into full-scale products</li>
                         </ul>
                         {/* <p>All participants get Autodesk assured gifts and participation certificates</p>
                         <p>Participants who pass First level screening gets exclusive access to Bootcamps set up by Autodesk experts</p> */}

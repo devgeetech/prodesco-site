@@ -12,6 +12,29 @@ const Contact = () => {
                 <p className={classes.chalTxHead}>Contact Us</p>
                 <p className={classes.chalTxCont}>We'd love to answer your questions! Contact our district coordinators</p>
             </div>
+            <div className={classes.chalSing}>
+                <div className={classes.chalSplitSec}>
+                    <p className={classes.chalSplitHead}>JOFIN THOMAS</p>
+                    <p className={classes.chalSplitCont}>REGIONAL MANAGER, VINSYS</p>
+                    <p className={classes.chalSplitContPh}>1234567890</p>
+                </div>
+                <div className={classes.chalSplitSec}>
+                    <p className={classes.chalSplitHead}>JOBIN JOY</p>
+                    <p className={classes.chalSplitCont}>FACULTY, PROVIDENCE COLLEGE OF ENG.</p>
+                    <p className={classes.chalSplitContPh}>9947374969</p>
+                </div>
+                <div className={classes.chalSplitSec}>
+                    <p className={classes.chalSplitHead}>AAYUSH NAIR</p>
+                    <p className={classes.chalSplitCont}>AUTODESK STUDENT AMBASSADOR</p>
+                    <p className={classes.chalSplitContPh}>9656485839</p>
+                </div>
+                <div className={classes.chalSplitSec}>
+                    <p className={classes.chalSplitHead}>AKHIL KRISHNAN</p>
+                    <p className={classes.chalSplitCont}>FUSION 360 CERTIFIED USER</p>
+                    <p className={classes.chalSplitContPh}>8301859886</p>
+                </div>
+            </div>
+            <p className={classes.chalDist}>District Coordinators</p>
             <div className={classes.chalSplit}>
                 <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>KASARGOD</p>

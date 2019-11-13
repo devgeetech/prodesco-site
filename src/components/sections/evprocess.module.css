@@ -72,7 +72,7 @@ body {
         margin:0;
         flex-direction: row;
         justify-content: space-around;
-        height: 90vh;
+        height: 100vh;
     }
 
     .blob {

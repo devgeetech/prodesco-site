@@ -32,7 +32,7 @@ const Challenge = () => {
                 <div className={classes.chalSplitLine}></div>
 
                 <div className={classes.chalSplitSec}>
-                    <p className={classes.chalSplitHead}>Colleges &amp; Polytechnics</p>
+                    <p className={classes.chalSplitHead}>Engineering Colleges &amp; Polytechnics</p>
                     <p className={classes.chalSplitCont}>Design a low-cost portable organic waste management device for residential purpose.</p>
                     <p className={classes.chalSplitCont2}>Software to be used: AUTODESK FUSION 360</p>
                     <a href="https://www.autodesk.in/products/fusion-360/overview" rel="noopener noreferrer" target="_blank" className={classes.chalSplitImg2}>
