@@ -15,7 +15,7 @@ const Contact = () => {
             <div className={classes.chalSing}>
                 <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>JOFIN THOMAS</p>
-                    <p className={classes.chalSplitCont}>REGIONAL MANAGER, VINSYS</p>
+                    <p className={classes.chalSplitCont}>REGIONAL MANAGER, AUTODESK VINSYS</p>
                     <p className={classes.chalSplitContPh}>9847816401</p>
                 </div>
                 <div className={classes.chalSplitSec}>

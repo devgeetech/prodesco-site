@@ -41,7 +41,8 @@ body {
 }
 
 .hiddenLogo {
-    display: block;
+    visibility: hidden;
+    /* display: block; */
 }
 
 
