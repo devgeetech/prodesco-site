@@ -20,7 +20,7 @@ const Challenge = () => {
                 <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>Schools</p>
                     <p className={classes.chalSplitCont}>Design a portable low-cost plastic management device for residential purpose.</p>
-                    <p className={classes.chalSplitCont2}>Software to be used: AUTODESK TINKERCAD</p>
+                    <p className={classes.chalSplitCont2}>Eligibility: 10th, 11th and 12th standard students all over india<br/><br/>Software to be used: AUTODESK TINKERCAD</p>
                     <a href="https://www.tinkercad.com/" rel="noopener noreferrer" target="_blank" className={classes.chalSplitImg1}>
                         <img src={tinker} alt="tinkercad logo" />
                     </a>
@@ -34,7 +34,7 @@ const Challenge = () => {
                 <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>Engineering Colleges &amp; Polytechnics</p>
                     <p className={classes.chalSplitCont}>Design a low-cost portable organic waste management device for residential purpose.</p>
-                    <p className={classes.chalSplitCont2}>Software to be used: AUTODESK FUSION 360</p>
+                    <p className={classes.chalSplitCont2}>Eligibility: Students from AICTE approved colleges<br/><br/>Software to be used: AUTODESK FUSION 360</p>
                     <a href="https://www.autodesk.in/products/fusion-360/overview" rel="noopener noreferrer" target="_blank" className={classes.chalSplitImg2}>
                         <img src={fusion} alt="fusion 360 logo" />
                     </a>

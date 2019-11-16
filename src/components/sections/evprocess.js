@@ -28,7 +28,7 @@ const EvProcess = () => {
                     <p className={classes.evPTxContH}>Second Level Submission</p>
                     <p className={classes.evPTxContC}>
                         The designs from the competitors are collected and is evaluated by the Autodesk experts.<br/>
-                        20 submissions from school category and 20 submissions from college/ polytechnic
+                        <strong>20 submissions</strong> from school category and <strong>20 submissions</strong> from college/ polytechnic
                         category are shortlisted.
                     </p>
 

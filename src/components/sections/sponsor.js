@@ -15,9 +15,15 @@ const Sponsor = () => {
                 <p className={classes.spTxHead}>In Association With</p>
             </div>
             <div className={classes.spImgs}>
-                <img src={autodesk} alt="Autodesk"/>
-                <img src={vinsys} alt="Vinsys"/>
-                <img src={prc} alt="PRC"/>
+                <a href="https://www.autodesk.in/" rel="noopener noreferrer" target="_blank">
+                    <img src={autodesk} alt="Autodesk"/>
+                </a>
+                <a href="https://www.vinsys.com/" rel="noopener noreferrer" target="_blank">
+                    <img src={vinsys} alt="Vinsys"/>
+                </a>
+                <a href="https://providence.edu.in/" rel="noopener noreferrer" target="_blank">
+                    <img src={prc} alt="PRC"/>
+                </a>
                 <img src={nss} alt="NSS" className={classes.hiddenLogo}/>
             </div>
         </div>
