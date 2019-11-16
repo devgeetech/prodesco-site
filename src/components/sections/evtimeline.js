@@ -23,34 +23,34 @@ const Evtimeline = () => {
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Event Announcement</td>
-                        <td>1st November 2019</td>
+                        <td>20th November 2019</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
-                        <td>First level Submission start date</td>
-                        <td>6th November 2019</td>
+                        <td>First level Submission commences on</td>
+                        <td>25th November 2019</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
-                        <td>First level submission end date</td>
-                        <td>30th November 2019</td>
+                        <td>First level Submission closes on</td>
+                        <td>28th December 2019</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Boot Camp Window</td>
-                        <td>2nd December - 18th January 2020</td>
+                        <td>13th January - 31st January 2020</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
-                        <td>Second level Submission start date</td>
-                        <td>2nd December 2019</td>
+                        <td>Second level Submission commences on</td>
+                        <td>13th January 2019</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
-                        <td>Submission End Date</td>
-                        <td>18th January 2020</td>
+                        <td>Second level Submission closes on</td>
+                        <td>31st January 2020</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Finale &amp; Conference</td>
                         <td>7th &amp; 8th, February 2020</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
-                        <td>Winners “Make the Design” window</td>
+                        <td>Winners' “Make the Design” window</td>
                         <td>February 2020 – August 2020</td>
                     </tr>
                 </table>

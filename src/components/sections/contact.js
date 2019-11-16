@@ -10,7 +10,7 @@ const Contact = () => {
         <div className={classes.chalWrap} id="contact-section">
             <div className={classes.chalTx}>
                 <p className={classes.chalTxHead}>Contact Us</p>
-                <p className={classes.chalTxCont}>We'd love to answer your questions! Contact our district coordinators</p>
+                <p className={classes.chalTxCont}>We'd love to answer your questions!</p>
             </div>
             <div className={classes.chalSing}>
                 <div className={classes.chalSplitSec}>
@@ -34,7 +34,11 @@ const Contact = () => {
                     <p className={classes.chalSplitContPh}>8301859886</p>
                 </div>
             </div>
-            <p className={classes.chalDist}>District Coordinators</p>
+
+            <div className={classes.chalTx}>
+                <p className={classes.chalDist}>District Coordinators</p>
+                <p className={classes.chalTxCont}>Contact our district coordinators for quick answers and information on free Tinkercad/ Fusion 360 training sessions.</p>
+            </div>
             <div className={classes.chalSplit}>
                 <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>KASARGOD</p>

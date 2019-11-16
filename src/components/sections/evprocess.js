@@ -15,21 +15,21 @@ const EvProcess = () => {
                 <div className={classes.evPTxCont}>
                     <p className={classes.evPTxContH}>First Level Submission</p>
                     <p className={classes.evPTxContC}>
-                        The participants submit their designs online.<br/>
+                        The participants should submit their designs online.<br/>
                         The designs will be evaluated by Autodesk Experts.
                     </p>
 
                     <p className={classes.evPTxContH}>Boot Camps</p>
                     <p className={classes.evPTxContC}>
-                        After the first level screening the competitors will be 
-                        given a 3-day advanced training by the Autodesk officials.
+                        After the first level screening, the competitors will be 
+                        given a three day advanced training by the Autodesk officials.
                     </p>
 
                     <p className={classes.evPTxContH}>Second Level Submission</p>
                     <p className={classes.evPTxContC}>
-                        The designs from the competitors are collected and is evaluated by the Autodesk experts.<br/>
-                        <strong>20 submissions</strong> from school category and <strong>20 submissions</strong> from college/ polytechnic
-                        category are shortlisted.
+                        Once the bootcamps are over, The competitors should submit their advanced designs.<br/>After the evaluation, 
+                        <strong> 20 submissions</strong> from school category and <strong>20 submissions</strong> from college/ polytechnic
+                        category will be shortlisted.
                     </p>
 
                     <p className={classes.evPTxContH}>Third Level Submission</p>

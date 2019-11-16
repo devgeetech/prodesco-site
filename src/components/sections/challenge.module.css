@@ -19,11 +19,12 @@ body {
 .chalWrap {
     display: flex;
     min-width: 100%;
-    height: 58rem;
+    height: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #f2f5f7
+    background: #f2f5f7;
+    z-index: 10;
 }
 
 /**/
