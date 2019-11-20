@@ -25,6 +25,7 @@ const Footer = () => {
                     <Link to="/#challenge-section">CHALLENGE</Link>
                     <Link to="/#timeline-section">TIMELINE</Link>
                     <Link to="/#contact-section">CONTACT</Link>
+                    <Link to="/blog">BLOG</Link>
                 </ul>
             </div>
             <div className={classes.ftCol}>

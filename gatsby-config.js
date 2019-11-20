@@ -4,7 +4,13 @@
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
 
+require('dotenv').config()
+
 module.exports = {
+  siteMetadata: {
+    title: `PRODESCO`,
+    subtitle: `DESIGN CONTEST`
+  },
   plugins : [
     {
       resolve: 'gatsby-plugin-web-font-loader',
@@ -33,5 +39,23 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    // {
+    //   resolve: `gatsby-source-contentful`,
+    //   options: {
+    //     spaceId: process.env.CONTENTFUL_SPACEID,
+    //     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+    //     host: `cdn.contentful.com`,
+    //   },
+    // },
+    {
+      resolve: "gatsby-source-wordpress",
+      options: {
+        baseUrl: process.env.WORDPRESS_BASE_URL,
+        protocol: "http",
+        hostingWPCOM: false,
+        useACF: false,
+        verboseOutput: false,
+      },
+    },
   ]
 }
