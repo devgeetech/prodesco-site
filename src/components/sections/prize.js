@@ -13,16 +13,16 @@ const Prize = () => {
                 <img src={win} alt="Winners" className={classes.prPIm}/>
                 <div className={classes.prPTx}>
                     <p className={classes.prPTxHead}>Prizes &amp; Goodies</p>
+
                     <div className={classes.prPTxCont}>
                         <ul>
+                            <li>The winners of the event get exciting cash prizes and an amazing opportunity to convert their designs into full-scale products.</li>
+                            <br/>
                             <li>All participants will get Autodesk assured gifts and participation certificates after the completion of each stage.</li>
                             <br/>
                             <li>Participants who pass the first level screening gets exclusive access to Bootcamps set up by Autodesk experts.</li>
-                            <br/>
-                            <li>The winners of the event will get financial support to convert their designs into full-scale products</li>
+                            
                         </ul>
-                        {/* <p>All participants get Autodesk assured gifts and participation certificates</p>
-                        <p>Participants who pass First level screening gets exclusive access to Bootcamps set up by Autodesk experts</p> */}
                     </div>
                 </div>
             </div>

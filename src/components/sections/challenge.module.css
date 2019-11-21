@@ -93,6 +93,25 @@ body {
     font-weight: 350;
 }
 
+
+
+.chalSplitCont3 {
+    margin: 0.4rem;
+    font-family: 'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-style: italic; */
+    font-size: 0.8rem;
+    font-weight: 650;
+}
+
+.chalSplitCont4 {
+    margin: 0.4rem;
+    font-family: 'Montserrat','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-style: italic; */
+    font-size: 0.8rem;
+    font-weight: 600;
+    opacity: 0.75;
+}
+
 .chalSplitImg1 img{
     margin: 0.5rem;
     width: 40%;

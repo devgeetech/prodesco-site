@@ -132,7 +132,7 @@ body {
     }
 
     .heroTxHead {
-        font-size: 4rem;
+        font-size: 2.5rem;
     }
 
     .heroTxCont {
@@ -150,7 +150,11 @@ body {
     }
 }
 
-
+@media (min-width: 1200px) {
+    .heroTxHead {
+        font-size: 4rem;
+    }
+}
 
 
 
