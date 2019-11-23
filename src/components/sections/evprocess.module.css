@@ -71,6 +71,7 @@ body {
 @media (min-width: 500px) {
     .evPWrap {
         margin:0;
+        padding-top: 6rem;
         flex-direction: row;
         justify-content: space-around;
         height: 100vh;
