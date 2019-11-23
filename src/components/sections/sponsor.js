@@ -24,7 +24,7 @@ const Sponsor = () => {
                 <a href="https://providence.edu.in/" rel="noopener noreferrer" target="_blank">
                     <img src={prc} alt="PRC"/>
                 </a>
-                <img src={nss} alt="NSS" className={classes.hiddenLogo}/>
+                <img src={nss} alt="NSS"/>
             </div>
         </div>
     )

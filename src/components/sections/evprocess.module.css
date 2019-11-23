@@ -19,7 +19,8 @@ body {
 .evPWrap {
     display: flex;
     min-width: 100%;
-    height: 65rem;
+    /* height: 65rem; */
+    height: 100%;
     flex-direction: column;
     align-items: center;
     background: #f2f5f7;

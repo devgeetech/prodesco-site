@@ -13,30 +13,31 @@ const EvProcess = () => {
             <div className={classes.evPTx}>
                 <p className={classes.evPTxHead}>Event Process</p>
                 <div className={classes.evPTxCont}>
-                    <p className={classes.evPTxContH}>First Level Submission</p>
+                    <p className={classes.evPTxContH}>Stage 1: Level 1 Submission</p>
                     <p className={classes.evPTxContC}>
-                        The participants should submit their designs online.<br/>
-                        The designs will be evaluated by Autodesk Experts.
+                        The participants should submit their designs online on or before 28th December for evaluation by autodesk experts
                     </p>
 
-                    <p className={classes.evPTxContH}>Boot Camps</p>
+                    <p className={classes.evPTxContH}>Stage 2: Boot Camps</p>
                     <p className={classes.evPTxContC}>
-                        After the first level screening, the competitors will be 
-                        given a three day advanced training by the Autodesk officials.
+                        After the level 1 screening, the competitors will be 
+                        given the opportunity to attend a three-day advanced training boot camp with Autodesk experts.
                     </p>
 
-                    <p className={classes.evPTxContH}>Second Level Submission</p>
+                    <p className={classes.evPTxContH}>Stage 3: Level 2 Submission</p>
                     <p className={classes.evPTxContC}>
-                        Once the bootcamps are over, The competitors should submit their advanced designs.<br/>After the evaluation, 
-                        <strong> 20 submissions</strong> from school category and <strong>20 submissions</strong> from college/ polytechnic
-                        category will be shortlisted.
+                        After successful completion of boot camps, competitors are invited to submit advanced designs on or before 31st January 2020.<br/>
+                        <br/>
+                        At this stage, the top 20 submissions each from school and college/polytechnic categories will be shortlisted for final presentation.
                     </p>
 
-                    <p className={classes.evPTxContH}>Third Level Submission</p>
+                    <p className={classes.evPTxContH}>Stage 4: Level 3 Presentation</p>
                     <p className={classes.evPTxContC}>
-                        The shortlisted participants are required to present their designs 
-                        in front of an expert panel of judges which includes judges from Autodesk and industry.<br/>
-                        The 3 finalists are selected and they must present their design during the finale of the competition.
+                        Shortlisted competitors are required to present their designs to an expert panel of judges, including experts from Autodesk, academia and industry.
+                        <br/><br/>
+                        3 finalists will be selected and asked to present their designs during the finale of the competition.
+                        <br/><br/>
+                        The venue of the finale will be announced shortly.
                     </p>
                 </div>
             </div>
