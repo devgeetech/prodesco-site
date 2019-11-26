@@ -78,6 +78,10 @@ body {
     width: 48rem;
 }
 
+.blogPostTxHead:hover {
+    text-decoration: underline;
+}
+
 
 
 @media (min-width: 640px) {

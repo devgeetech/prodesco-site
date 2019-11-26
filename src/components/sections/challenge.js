@@ -35,7 +35,7 @@ const Challenge = () => {
 
                 <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>Engineering Colleges &amp; Polytechnics</p>
-                    <p className={classes.chalSplitCont}>Design a low-cost portable organic waste management device for residential purposes.</p>
+                    <p className={classes.chalSplitCont}>Design a low-cost portable organic waste management device (other than vermicompost) for residential purposes.</p>
                     <p className={classes.chalSplitCont3}>First Prize: &#8377; 50,000</p>
                     <p className={classes.chalSplitCont4}>Second Prize: &#8377; 25,000</p>
                     <p className={classes.chalSplitCont2}>Eligibility: Students from AICTE approved colleges<br/><br/>Software to be used: AUTODESK FUSION 360</p>

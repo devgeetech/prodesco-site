@@ -65,7 +65,6 @@ body {
 @media (min-width: 500px) {
     .spWrap {
         margin:0;
-        height: 100vh;
     }
 
     .spImgs {

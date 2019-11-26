@@ -33,6 +33,16 @@ const Contact = () => {
                     <p className={classes.chalSplitCont}>FUSION 360 CERTIFIED USER</p>
                     <p className={classes.chalSplitContPh}>8301859886</p>
                 </div>
+                <div className={classes.chalSplitSec}>
+                    <p className={classes.chalSplitHead}>CHRISTY KOSHY</p>
+                    <p className={classes.chalSplitCont}>NSS PROGRAM OFFICER, PROVIDENCE</p>
+                    <p className={classes.chalSplitContPh}>9459536744</p>
+                </div>
+                <div className={classes.chalSplitSec}>
+                    <p className={classes.chalSplitHead}>ABIN T OOMMEN</p>
+                    <p className={classes.chalSplitCont}>NSS STUDENT COORDINATOR</p>
+                    <p className={classes.chalSplitContPh}>9526388627</p>
+                </div>
             </div>
 
             <div className={classes.chalTx}>

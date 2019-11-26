@@ -8,7 +8,7 @@ require('dotenv').config()
 
 module.exports = {
   siteMetadata: {
-    title: `PRODESCO`,
+    title: `PRODESCOM`,
     subtitle: `DESIGN CONTEST`
   },
   plugins : [
@@ -24,7 +24,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Providence Design Contest",
-        short_name: "PRODESCO",
+        short_name: "PRODESCOM",
         start_url: "/",
         background_color: "#000000",
         theme_color: "#000000",
