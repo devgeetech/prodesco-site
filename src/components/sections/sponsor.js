@@ -6,6 +6,7 @@ import prc from '../../../content/logos/prc1.png'
 import vinsys from '../../../content/logos/vinsys.png'
 import autodesk from '../../../content/logos/autodesk.png'
 import nss from '../../../content/logos/nss.png'
+import promea from '../../../content/logos/PROMEA.png'
 
 const Sponsor = () => {
     return(
@@ -25,6 +26,7 @@ const Sponsor = () => {
                     <img src={prc} alt="PRC"/>
                 </a>
                 <img src={nss} alt="NSS"/>
+                <img src={promea} alt="PROMEA"/>
             </div>
         </div>
     )
