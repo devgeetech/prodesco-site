@@ -26,7 +26,7 @@ const Challenge = () => {
                     <a href="https://www.tinkercad.com/" rel="noopener noreferrer" target="_blank" className={classes.chalSplitImg1}>
                         <img src={tinker} alt="tinkercad logo" />
                     </a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSc8_baH2v2vWAHmwP6iEa40R9T-J1tDf4GF7bASfJcDstqtZg/viewform?usp=sf_link" rel="noopener noreferrer" target="_blank" className={classes.rgBtn}>
+                    <a href="http://prvdnc.com/pdchss" rel="noopener noreferrer" target="_blank" className={classes.rgBtn}>
                         Register
                     </a>
                 </div>
@@ -42,7 +42,7 @@ const Challenge = () => {
                     <a href="https://www.autodesk.in/products/fusion-360/overview" rel="noopener noreferrer" target="_blank" className={classes.chalSplitImg2}>
                         <img src={fusion} alt="fusion 360 logo" />
                     </a>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSebeEuPx5qd_8MLua1-8YpSgBRLAsFBgc9Hnh7sPVonZGfwdQ/viewform?usp=sf_link" rel="noopener noreferrer" target="_blank" className={classes.rgBtn}>
+                    <a href="http://prvdnc.com/pdcpc" rel="noopener noreferrer" target="_blank" className={classes.rgBtn}>
                         Register
                     </a>
                 </div>

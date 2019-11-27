@@ -133,6 +133,34 @@ body {
     background: #3f3d56;
 }
 
+.collapseButt {
+    display: flex;
+    justify-content: space-between;
+    width: 3rem;
+    cursor: pointer;
+}
+
+.collapseTx {
+    font-size: 0.8rem;
+    opacity: 0.5;
+    font-family: 'Montserrat', Georgia, 'Times New Roman', Times, serif;
+}
+
+.downD {
+    width: 0.5rem;
+}
+
+.downD {
+    opacity: 0.5;
+    width: 0.5rem;
+}
+
+.downU {
+    opacity: 0.5;
+    width: 0.5rem;
+    transform: rotateZ(180deg)
+}
+
 @media (min-width: 500px)  {
     .chalWrap {
         /* min-height: 100%; */
@@ -172,11 +200,13 @@ body {
     } */
 
     .chalSing {
-        width: 60%;
+        width: 80%;
         flex-direction: row;
         flex-wrap: wrap;
         margin-bottom: 2rem;
     }
+
+
 
     .chalSplit {
         flex-direction: row;

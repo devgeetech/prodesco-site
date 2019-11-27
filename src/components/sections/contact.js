@@ -1,11 +1,23 @@
-import React from "react"
+import React, { useState } from "react"
+
+import { Collapse } from "@blueprintjs/core"
+import useCollapse from 'react-collapsed';
 
 import classes from './contact.module.css'
 
 import blob from '../../../content/bgillus/blobDGr.svg'
 
+import down from '../../../content/icons/down.svg'
+
 
 const Contact = () => {
+
+    const [conOpen, toggConOpen] = useState(false)
+
+    const [isOpen, setOpen] = useState(false);
+    const {getCollapseProps, getToggleProps} = useCollapse({isOpen});
+
+
     return(
         <div className={classes.chalWrap} id="contact-section">
             <div className={classes.chalTx}>
@@ -23,6 +35,55 @@ const Contact = () => {
                     <p className={classes.chalSplitCont}>FACULTY, PROVIDENCE COLLEGE OF ENG.</p>
                     <p className={classes.chalSplitContPh}>9947374969</p>
                 </div>
+            </div>
+
+            {/* <button onClick={() => toggConOpen(!conOpen)}>Expand</button>
+            <Collapse isOpen={conOpen}  className={classes.collapse} transitionDuration={200}>
+                <div className={classes.chalSing}>    
+                    <div className={classes.chalSplitSec}>
+                        <p className={classes.chalSplitHead}>AAYUSH NAIR</p>
+                        <p className={classes.chalSplitCont}>AUTODESK STUDENT AMBASSADOR</p>
+                        <p className={classes.chalSplitContPh}>9656485839</p>
+                    </div>
+                    <div className={classes.chalSplitSec}>
+                        <p className={classes.chalSplitHead}>AKHIL KRISHNAN</p>
+                        <p className={classes.chalSplitCont}>FUSION 360 CERTIFIED USER</p>
+                        <p className={classes.chalSplitContPh}>8301859886</p>
+                    </div>
+                    <div className={classes.chalSplitSec}>
+                        <p className={classes.chalSplitHead}>CHRISTY KOSHY</p>
+                        <p className={classes.chalSplitCont}>NSS PROGRAM OFFICER, PROVIDENCE</p>
+                        <p className={classes.chalSplitContPh}>9459536744</p>
+                    </div>
+                    <div className={classes.chalSplitSec}>
+                        <p className={classes.chalSplitHead}>ABIN T OOMMEN</p>
+                        <p className={classes.chalSplitCont}>NSS STUDENT COORDINATOR</p>
+                        <p className={classes.chalSplitContPh}>9526388627</p>
+                    </div>
+                    <div className={classes.chalSplitSec}>
+                        <p className={classes.chalSplitHead}>SREENATH R</p>
+                        <p className={classes.chalSplitCont}>VICE PRESIDENT, PROMEA</p>
+                        <p className={classes.chalSplitContPh}>9074977216</p>
+                    </div>
+                </div>
+            </Collapse> */}
+
+            <div
+                {...getToggleProps({
+                onClick: () => setOpen(oldOpen => !oldOpen),
+                })}>
+                {isOpen ? 
+                    <div className={classes.collapseButt}>
+                        <p className={classes.collapseTx}>less</p>
+                        <img src={down} className={classes.downU}/>
+                    </div>: 
+                    <div className={classes.collapseButt}>
+                        <p className={classes.collapseTx}>more</p>
+                        <img src={down} className={classes.downD}/>
+                    </div>}
+            </div>
+
+            <div className={classes.chalSing } {...getCollapseProps()}>    
                 <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>AAYUSH NAIR</p>
                     <p className={classes.chalSplitCont}>AUTODESK STUDENT AMBASSADOR</p>
@@ -42,6 +103,11 @@ const Contact = () => {
                     <p className={classes.chalSplitHead}>ABIN T OOMMEN</p>
                     <p className={classes.chalSplitCont}>NSS STUDENT COORDINATOR</p>
                     <p className={classes.chalSplitContPh}>9526388627</p>
+                </div>
+                <div className={classes.chalSplitSec}>
+                    <p className={classes.chalSplitHead}>SREENATH R</p>
+                    <p className={classes.chalSplitCont}>VICE PRESIDENT, PROMEA</p>
+                    <p className={classes.chalSplitContPh}>9074977216</p>
                 </div>
             </div>
 
