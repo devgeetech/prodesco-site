@@ -1,5 +1,7 @@
 import React, { useState } from "react"
 
+import { Link } from 'gatsby'
+
 import { Collapse } from "@blueprintjs/core"
 import useCollapse from 'react-collapsed';
 
@@ -68,21 +70,6 @@ const Contact = () => {
                 </div>
             </Collapse> */}
 
-            <div
-                {...getToggleProps({
-                onClick: () => setOpen(oldOpen => !oldOpen),
-                })}>
-                {isOpen ? 
-                    <div className={classes.collapseButt}>
-                        <p className={classes.collapseTx}>less</p>
-                        <img src={down} className={classes.downU}/>
-                    </div>: 
-                    <div className={classes.collapseButt}>
-                        <p className={classes.collapseTx}>more</p>
-                        <img src={down} className={classes.downD}/>
-                    </div>}
-            </div>
-
             <div className={classes.chalSing } {...getCollapseProps()}>    
                 <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>AAYUSH NAIR</p>
@@ -111,11 +98,27 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className={classes.chalTx}>
-                <p className={classes.chalDist}>District Coordinators</p>
-                <p className={classes.chalTxCont}>Contact our district coordinators for quick answers and information on free Tinkercad/ Fusion 360 training sessions.</p>
+            <div
+                {...getToggleProps({
+                onClick: () => setOpen(oldOpen => !oldOpen),
+                })}>
+                {isOpen ? 
+                    <div className={classes.collapseButt}>
+                        <p className={classes.collapseTx}>less</p>
+                        <img src={down} className={classes.downU}/>
+                    </div>: 
+                    <div className={classes.collapseButt}>
+                        <p className={classes.collapseTx}>more</p>
+                        <img src={down} className={classes.downD}/>
+                    </div>}
             </div>
-            <div className={classes.chalSplit}>
+
+            <div className={classes.chalTx}>
+                <Link to="/district-coordinators" className={classes.chalTxCont2}>
+                    <p>Contact our district coordinators for information on free Tinkercad/ Fusion 360 training sessions.</p>
+                </Link>
+            </div>
+            {/* <div className={classes.chalSplit}>
                 <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>KASARGOD</p>
                     <p className={classes.chalSplitCont}>ANU MOHAN</p>
@@ -169,7 +172,7 @@ const Contact = () => {
                     <p className={classes.chalSplitContPh}>9496390121</p>
                 
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

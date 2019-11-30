@@ -16,7 +16,7 @@ class Post extends Component {
     return (
       <Layout>
         <Helmet>
-          <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1" />
           <title>PRODESCO - {post.title}</title>
         </Helmet>
         <img src={blob} alt="blob" className={classes.blob} />
