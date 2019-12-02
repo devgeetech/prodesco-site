@@ -12,24 +12,23 @@ const Hero = () => {
             <img src={blob} alt="blob" className={classes.blob} />
             <img src={idea} alt="Idea hero" className={classes.heroIm}/>
             <div className={classes.heroTx}>
-                <p className={classes.heroTxHead}>Design to&nbsp; 
-                    <div className={classes.animatedWords}>
-                        <span>Inspire.</span>
-                        <span>Innovate.</span>
-                        <span>Empower.</span>
-                        <span>Influence.</span>
-                        <span>Change.</span>
-                        <span>Deliver.</span>
-                    </div>
-                </p>
+                <React.Fragment>
+                    <p className={classes.heroTxHead}>Design to&nbsp; 
+                        <div className={classes.animatedWords}>
+                            <span>Inspire.</span>
+                            <span>Innovate.</span>
+                            <span>Empower.</span>
+                            <span>Influence.</span>
+                            <span>Change.</span>
+                            <span>Deliver.</span>
+                        </div>
+                    </p>
+                </React.Fragment>
                 <p className={classes.heroTxCont}>National level competition to unearth the inventors of tomorrow</p>
                 <a href="/#challenge-section" rel="noopener noreferrer" target="_blank" className={classes.rgBtn}>
                     Register
                 </a>
-                
             </div>
-            
-
             <img src={down} alt="Down Arrow" className={classes.downArr} />
         </div>
     )
