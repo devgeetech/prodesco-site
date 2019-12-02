@@ -24,7 +24,7 @@ const Hero = () => {
                         </div>
                     </p>
                 </React.Fragment>
-                <div className={classes.heroTxCont}>National level competition to unearth the inventors of tomorrow</div>
+                <div className={classes.herotextcontent}><p>National level competition to unearth the inventors of tomorrow</p></div>
                 <a href="/#challenge-section" rel="noopener noreferrer" target="_blank" className={classes.rgBtn}>
                     Register
                 </a>
