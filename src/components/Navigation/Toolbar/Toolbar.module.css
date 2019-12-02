@@ -3,9 +3,9 @@
 }
 .Toolbar {
     min-width: 100%;
-    top: 0.5rem;
+    top: 0rem;
     position: absolute;
-    height:3rem;
+    height:7rem;
     z-index: 10;
     display: flex;
     flex-wrap: nowrap;
@@ -33,9 +33,9 @@
 
     .Toolbar {
         left: 3rem;
-        top: 1.5rem;
+        top: -1rem;
         min-width: 90%;
-        height: 5rem;
+        height: 10rem;
     }
 
     .NavItems {

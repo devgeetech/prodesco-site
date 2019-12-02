@@ -16,7 +16,7 @@ class Blog extends Component {
       <Layout>
         <Helmet>
           <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
-          <title>PRODESCO BLOG</title>
+          <title>PRODESCOM BLOG</title>
         </Helmet>
         <img src={blob} alt="blob" className={classes.blob} />
         <div className={classes.blogCont}>

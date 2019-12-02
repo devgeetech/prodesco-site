@@ -25,7 +25,7 @@ const indexPage = () => {
         <Layout>
             <Helmet>
                 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
-                <title>PRODESCO</title>
+                <title>PRODESCOM</title>
             </Helmet>
             <Hero />
             <Challenge />

@@ -1,11 +1,12 @@
 import React from 'react'
 
 import classes from './Logo.module.css'
-import rasLogo from '../../../content/logos/rasBlTx.svg'
+import prLogo from '../../../content/logos/prodesBl.png'
+// import rasLogo from '../../../content/logos/rasBlTx.svg'
 
 const logo = (props) => (
     <div className={classes.Logo}>
-        <img src={rasLogo} alt="Rasam logo"/>
+        <img src={prLogo} alt="Rasam logo"/>
     </div>
 );
 
