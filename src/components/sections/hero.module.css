@@ -27,12 +27,19 @@ body {
 
 .heroIm {
     margin-top :8rem;
+    margin-bottom: 2rem;
     width: 80%;
+}
+
+.hstuff {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
 }
 
 .heroTx {
     z-index: 10;
-    margin: 2rem;
+    /* margin: 2rem; */
 }
 
 .heroTxHead {
@@ -170,6 +177,10 @@ body {
         margin: 0;
         order: 1;
         width: 40%;
+    }
+
+    .hstuff {
+        margin-left: 4rem;
     }
 
     .heroTx {
