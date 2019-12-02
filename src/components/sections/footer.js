@@ -4,7 +4,8 @@ import { Link } from "gatsby"
 
 import classes from './footer.module.css'
 
-import rasam from '../../../content/logos/rasWhTx.svg'
+// import rasam from '../../../content/logos/rasWhTx.svg'
+import prodesLogo from '../../../content/logos/prodesCol.png'
 import locpin from '../../../content/icons/locpinEd.svg'
 import mail from '../../../content/icons/mailEd.svg'
 import fb from '../../../content/icons/fbEd.svg'
@@ -19,7 +20,7 @@ const Footer = () => {
     return(
         <div className={classes.ftWrap}>
             <div className={classes.ftCol}>
-                <a href="https://rasam.live/" rel="noopener noreferrer" target="_blank"><img src={rasam} className={classes.rasLogo}/></a>
+                {/* <img src={prodesLogo} className={classes.rasLogo}/> */}
                 <ul className={classes.navLinks}>
                     <Link to="/">HOME</Link>
                     <Link to="/#challenge-section">CHALLENGE</Link>

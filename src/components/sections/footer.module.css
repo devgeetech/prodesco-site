@@ -89,8 +89,8 @@ body {
 
 
 .rasLogo{
-    margin-top: 1rem;
-    width: 16rem;
+    /* margin-top: 1rem; */
+    width: 12rem;
 }
 
 
@@ -107,6 +107,7 @@ body {
     }
 
     .navLinks {
+        padding: 0rem 0;
         flex-direction: row;
     }
 
