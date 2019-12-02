@@ -151,16 +151,6 @@ body {
     animation: animateWord 18s linear infinite 0s;
 }
 
-@-webkit-keyframes animateWord {
-    0% { opacity: 0; }
-    2% { opacity: 0; -webkit-transform: translateY(-10px); }
-    5% { opacity: 1; -webkit-transform: translateY(0px);}
-    17% { opacity: 1; -webkit-transform: translateY(0px); }
-    20% { opacity: 0; -webkit-transform: translateY(10px); }
-    80% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
 
 @media (min-width: 640px) {
     .heroWrap {
@@ -213,6 +203,16 @@ body {
 
 
 
+
+@-webkit-keyframes animateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-10px); }
+    5% { opacity: 1; -webkit-transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); }
+    20% { opacity: 0; -webkit-transform: translateY(10px); }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+}
 
 
 
