@@ -23,11 +23,11 @@ const Evtimeline = () => {
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Event Announcement</td>
-                        <td>27th November 2019</td>
+                        <td>4th December 2019</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Level 1 Submission commences on</td>
-                        <td>27th November 2019</td>
+                        <td>4th December 2019</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Level 1 Submission closes on</td>
