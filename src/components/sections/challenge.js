@@ -19,7 +19,7 @@ const Challenge = () => {
             <div className={classes.chalSplit}>
                 <div className={classes.chalSplitSec}>
                     <p className={classes.chalSplitHead}>Schools</p>
-                    <p className={classes.chalSplitCont}>Design a portable low-cost plastic management device for residential purposes.</p>
+                    <p className={classes.chalSplitCont}>Design a portable low-cost plastic waste management device for residential purposes.</p>
                     <p className={classes.chalSplitCont3}>First Prize: &#8377; 30,000</p>
                     <p className={classes.chalSplitCont4}>Second Prize: &#8377; 20,000</p>
                     <p className={classes.chalSplitCont2}>Eligibility: 10th, 11th and 12th standard students<br/><br/>Software to be used: AUTODESK TINKERCAD</p>
