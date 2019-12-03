@@ -39,14 +39,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    // {
-    //   resolve: `gatsby-source-contentful`,
-    //   options: {
-    //     spaceId: process.env.CONTENTFUL_SPACEID,
-    //     accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-    //     host: `cdn.contentful.com`,
-    //   },
-    // },
     {
       resolve: "gatsby-source-wordpress",
       options: {
@@ -55,6 +47,16 @@ module.exports = {
         hostingWPCOM: false,
         useACF: false,
         verboseOutput: false,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.ANALYTICS_ID,
+        head: false,
+        respectDNT: true,
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
       },
     },
   ]
