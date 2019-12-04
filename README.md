@@ -2,7 +2,7 @@
 
 https://www.prodescom.org/
 
-Built on GatsbyJS,
+Built with GatsbyJS,
 Deployed on Netlify
 
 
