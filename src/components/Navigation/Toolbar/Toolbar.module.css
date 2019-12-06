@@ -3,9 +3,11 @@
 }
 .Toolbar {
     min-width: 100%;
-    top: -1rem;
+    top: -1.3rem;
     position: absolute;
-    height:7rem;
+    height:8rem;
+    /* height: 20%; */
+    left: 1rem;
     z-index: 10;
     display: flex;
     flex-wrap: nowrap;
