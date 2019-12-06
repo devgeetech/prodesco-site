@@ -31,7 +31,7 @@ const Evtimeline = () => {
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Level 1 Submission closes on</td>
-                        <td>15th January 2019</td>
+                        <td>15th January 2020</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Boot Camp Window</td>
@@ -39,7 +39,7 @@ const Evtimeline = () => {
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Level 2 Submission commences on</td>
-                        <td>20th January 2019</td>
+                        <td>20th January 2020</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Level 2 Submission closes on</td>
