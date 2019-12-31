@@ -15,7 +15,7 @@ const EvProcess = () => {
                 <div className={classes.evPTxCont}>
                     <p className={classes.evPTxContH}>Stage 1: Level 1 Submission</p>
                     <p className={classes.evPTxContC}>
-                        The participants should submit their designs online on or before 15th January for evaluation by autodesk experts
+                        The participants should submit their designs online on or before 20th January for evaluation by autodesk experts
                     </p>
 
                     <p className={classes.evPTxContH}>Stage 2: Boot Camps</p>
@@ -26,7 +26,7 @@ const EvProcess = () => {
 
                     <p className={classes.evPTxContH}>Stage 3: Level 2 Submission</p>
                     <p className={classes.evPTxContC}>
-                        After successful completion of boot camps, competitors are invited to submit advanced designs on or before 31st January 2020.<br/>
+                        After successful completion of boot camps, competitors are invited to submit advanced designs on or before 3rd February 2020.<br/>
                         <br/>
                         At this stage, the top 20 submissions each from school and college/polytechnic categories will be shortlisted for final presentation.
                     </p>
