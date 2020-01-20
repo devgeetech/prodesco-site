@@ -21,6 +21,7 @@ if (typeof window !== "undefined") {
 
 
 const indexPage = () => {
+
     return(
         <Layout>
             <Helmet>

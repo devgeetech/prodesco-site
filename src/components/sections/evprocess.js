@@ -15,7 +15,7 @@ const EvProcess = () => {
                 <div className={classes.evPTxCont}>
                     <p className={classes.evPTxContH}>Stage 1: Level 1 Submission</p>
                     <p className={classes.evPTxContC}>
-                        The participants should submit their designs online on or before 20th January for evaluation by autodesk experts
+                        The participants should submit their designs online on or before 29th January for evaluation by autodesk experts
                     </p>
 
                     <p className={classes.evPTxContH}>Stage 2: Boot Camps</p>
