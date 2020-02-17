@@ -31,27 +31,23 @@ const Evtimeline = () => {
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Level 1 Submission closes on</td>
-                        <td>29th January 2020</td>
-                    </tr>
-                    <tr className={classes.chalSplitCont}>
-                        <td>Boot Camp Window</td>
-                        <td>1st February - 3rd February 2020</td>
+                        <td>31st March 2020</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Level 2 Submission commences on</td>
-                        <td>1st February 2020</td>
+                        <td>1st April 2020</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Level 2 Submission closes on</td>
-                        <td>3rd February 2020</td>
+                        <td>25th April 2020</td>
+                    </tr>
+                    <tr className={classes.chalSplitCont}>
+                        <td>Boot Camp Window</td>
+                        <td>1st April - 25th April 2020</td>
                     </tr>
                     <tr className={classes.chalSplitCont}>
                         <td>Finale &amp; Conference</td>
-                        <td>7th &amp; 8th, February 2020</td>
-                    </tr>
-                    <tr className={classes.chalSplitCont}>
-                        <td>Winners' “Make the Design” window</td>
-                        <td>February 2020 – August 2020</td>
+                        <td>27th &amp; 28th, April 2020</td>
                     </tr>
                 </table>
 
