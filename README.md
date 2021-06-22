@@ -1,6 +1,6 @@
 ## Website for Providence Design Competition
 
-https://www.prodescom.org/
+https://prodescom.devgee.tech/
 
 Built with GatsbyJS,
 Deployed on Netlify
